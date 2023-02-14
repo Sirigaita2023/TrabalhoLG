@@ -1,0 +1,356 @@
+<!--slide 7 grupo 2 | Criação de um ficheiro HTML-->
+<!doctype html>
+<html>
+<!--slide 8 grupo 2 | Definição do head-->
+    <head>  
+
+        <title>Website</title>
+
+
+        <meta name="description" content="Cães de caça e Familia">
+
+        <meta name="keywords" content="Epagneul Breton, A melhor raça de cão, todo o terreno, cão de familia"> <!--palavras de pesquisa-->
+
+        <meta name="author" content="Madalena Santos Lima">
+
+        <meta http-equiv="refresh" content="300"> <!--alterado de "30" porque o video tem 4,5 m = 5m (5m*60s=300s)-->
+
+        <meta charset="UTF-8"> <!--Código de caracteres-->
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css"href="Exercicio2.css"> <!--nome do ficheiro CSS"Exercicio2.css"-->
+
+    </head>
+
+    
+    <body><!--Área se conteudos que aparece na pagina-->
+            
+        <header><!--cabeçalho - parte superior da pagina-->
+
+    <!--Menu hamburger-->
+
+        <a id="menu_icon"><!--Menu hamburger| desenhar icon | Grupo 7, slide 4-->
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+             <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z" fill="white"/> 
+             </svg>
+             </a>
+
+        <div id="drawer"><!--Menu hamburger | conteudos | grupo 7, slide 3-->
+         <nav>
+            <!--<hr class="hr"> -->
+            <!--<br> Acrescentei um Br para dar um espaço-->
+            <a href="#unordered"> Estalão da Raça </a>
+            <!--<br><br>hr class="hr"-->
+            <a href="#ordered"> Pelagem</a> 
+            <!-- <br><br>hr class="hr"-->
+            <a href="#color"> Temperamento</a>
+            <!--<br><br>hr class="hr"-->
+            <a href="#table"> Tamanho </a>
+            <!--<br><br>hr class="hr"-->
+            <a href="#video"> Video </a>
+            <!--<br>hr class="hr"-->
+         </nav>
+        </div>
+
+    <!--Barra superior do site-->    
+            <h1>Epagneul Breton</h1><!--h1= a Titulo 1, hierarquia de titulos, alterado de: What is HTML | Grupo 2, slide 7 ou grupo3 slide 11) -->
+            
+            <p> Um cão de Caça! Um cão de Familia! </p> <!-- <p> delimita um paragrafo, alterados de: Hyper text Markup Language | Grupo 3, slide 11-->
+            
+            <h4> DPIE - UC Linguagens Digitais</h4><!--Barra em diagonal no canto superir esquerdo, alterado de : Interaction Design-->  
+
+             <hr/> <!--<hr> Insere uma linha na horizontal-->
+    
+         </header><!--Fecho do cabeçalho-->  
+
+<!--nav=Secção da pag. que contém links | Slide 11 grupo 3-->
+
+        <nav id="tabletPC" class="col-3"> <!-- id tabletPC é para o hamburguer -->
+            <!-- id="tabletPC" class="col-2"> -->
+
+            <!--Slide 12 grupo 2 | <a href= delimita um hyperlink para a pagina indicada em href | <a= ancora-->
+
+                <!-- Foram inseridos os tags <br> (breaks) para adicionar nova linha entre os links -->
+           <br>
+           
+            <a href="#unordered"> Estalão da Raça</a>
+            
+            <!--<br><hr class="hr"> Adicionado por mim | o hr é a linha verde a separar os menus laterais com os links-->
+        
+            <a href="#ordered"> Pelagem</a>
+            
+             <!--<br><hr class="hr"> Adicionado por mim | o hr é a linha verde a separar os menus laterais com os links-->
+
+            <a href="#color"> Temperamento </a>
+
+             <!--<br><hr class="hr"> Adicionado por mim | o hr é a linha verde a separar os menus laterais com os links-->
+
+            <a href="#table"> Tamanho</a>
+
+             <!--<br><hr class="hr"> Adicionado por mim | o hr é a linha verde a separar os menus laterais com os links-->
+
+            <a href="#video"> Video</a>
+
+             <!--<br><hr class="hr"> Adicionado por mim | o hr é a linha verde a separar os menus laterais com os links-->
+               
+
+        </nav> <!--fecho da secção dos hyperlinks-->
+
+<!--Grupo 6 slide 3, Slideshow: HTML (1)-->
+
+        <div id="container" class="col-9"><!--div=define um grupo de elementos,cria uma divisão | id= identifica o tipo de divisão | Class= a localização (coluna 9 de 12) | Área central da pagina ! -->
+ 
+         <section class="slideshow-container">
+            
+            <h2>Epagneul Breton</h2> 
+
+            <article class="mySlides" class="fade">         
+                <figure>
+                   <img src="epagneul breton tricolor.jpg" width="500" height="600"> <!-- Inseri a altura e comprimento da imagem-->
+                   <figcaption>Pelagem Tricolor</figcaption> <!-- Legenda da figura do slideshow-->
+                </figure>
+            </article>
+
+            <article class="mySlides" class="fade">
+                <figure>
+                   <img src="epagneul laranja e branco.jpeg" width="480" height="600"><!-- Inseri a altura e comprimento da imagem-->
+                   <figcaption>Travagem e mudança de rumo</figcaption><!-- Legenda da figura do slideshow-->
+                </figure>
+            </article>
+
+            <article class="mySlides" class="fade">
+                 <figure>
+                    <img src="epagnol a correr.jpg" width="500" height="600"> <!-- Inseri a altura e comprimento da imagem-->
+                    <figcaption>A sua corrida caracteristica!</figcaption><!-- Legenda da figura do slideshow-->
+                 </figure>
+            </article>
+
+ <!--Grupo 6 slide 4, Slideshow: HTML (2)-->     
+
+            <div class="dotpoints"><!--Pontos a assinalar a passagem dos slides-->
+                 <span class="dot"></span>
+                 <span class="dot"></span>
+                 <span class="dot"></span>
+            </div>
+        </section>
+
+
+<br>
+<br>
+        <section> <!--é uma secção generalista de um documento ou aplicação; grupo temático relacionado com o conteudo e deve conter um cabeçalho que pode estar hierarquizado h1 a h6 como se fosse um filho-->
+
+        <!--Inicio do conteudo-->
+
+            <a name="unordered"> </a><!-- slide 9 grupo 2 | Lista não numerada-->
+                <h2 style="background-color: darkgreen; color:white;"> Estalão da Raça </h2> <!--Titulo da box-->
+                <br>
+
+                    <i><b>Ficha Técnica</b></i> <!--<i>= linha de informação adicional; acrescentei bold-->
+
+                <ul> <!--<ul>=informa o inicio de uma lista não numerada-->
+
+                    <li> <b>Grupo:</b> Cães de Parar, </li><!--<li>=define um ponto na lista-->
+                    <br>
+                    <li> <b>Finalidade:</b> cão de caça (sinalizar a caça),</li>
+                    <br>
+                    <li> <b>País de Origem:</b> França,</li>
+                    <br>
+                    <li> <b>Porte:</b> médio, </li>
+                    <br>
+                    <li> <b>Peso ideal:</b> de 14kg a 18kg,</li>
+                    <br>
+                    <li> <b>Esperança Média de Vida:</b> entre 12 a 14 anos,</li>
+                    <br>
+                    <li> <b>Outros Nomes:</b> Brittany.</li> <!--</i>=fecha os pontos da lista-->
+
+                </ul><!--fecha a lista não numerada-->
+                
+                <img src="epanhol cara.jpg" alt="Face de um Epagneul Breton" width="620" height="600" class="center">
+<br>
+<br>
+         </section><!--fecha a secção/bloco-->
+
+        
+    <br>
+    <br>
+
+         <section>
+
+            <a name="ordered"></a> <!-- slide 10 grupo 2 | Lista numerada--> 
+            
+                <h2 style="background-color: darkgreen; color:white;">Pelagem </h2>
+          
+                    <br>
+
+                    <i><b> Existem 2 tipos: </b></i>
+
+                    <br>
+
+                 <ol><!--<ol>=informa o inicio de uma lista Numerada-->
+
+                    <li> <b>Bicolor</b> </li><!-- dois comandos <li>= lista e <u>= Define texto não articulado e com um estilo diferente do texto normal-->
+
+                        <p> 1.1. Branco e Laranja,</p>
+                        <p> 1.2. Branco e preto;</p>
+                        <p> 1.3. Branco e Castanho </p>
+                       
+                    <br>
+
+                    <li><b> Tricolor</b></li>
+                        <p> 2.1. Branco, Laranja e Castanho </p>
+                        <p> 2.2. Branco, Laranja e Preto; </p>
+
+                    <br>
+                    <br>
+
+                 </ol>
+            
+                 <img src="ninhada livro de caça.jpg"alt="Ninhada com todas as colorações aceites para a raça" style="width: 45%; height:35%" class="right">
+
+                <br>
+           
+                
+         </section>
+         <br>
+         <br>
+
+        <section><!--slide 11 grupo 2 | texto com Inserção de Imagens a partir da Net e do nosso PC-->
+
+            <a name="color"></a>
+                <h2 style="background-color: darkgreen;color:white;"> Temperamento</h2>
+
+                   <p> <i>"Uma expressão que os admiradores do Épagneul gostam de lhe associar é “as máximas qualidades num volume mínimo”. Robusto e resistente, continua a ser um popular cão de caça, cobrindo tanto em terra como na água e trazendo a peça ao dono praticamente intacta, o que leva os caçadores a afirmarem que tem o “dente doce”.
+
+                   <p> Tem sido também cada vez mais apreciado como cão de companhia, sendo, possivelmente, a raça nativa mais popular de França. O facto de libertar muito pouco odor e de ter um porte médio contribuem para que cada vez mais citadinos escolham o Épagneul Breton para se juntar à sua família.</p>
+                     
+                   <p>Leal, obediente, equilibrado, inteligente e meigo, é um cão que procura sempre agradar aos seus donos e é bastante sociável, apreciando as brincadeiras com os mais novos e os longos passeios ao ar livre. Sendo fácil de treinar, é uma raça extremamente sensível, tornando-se bastante tímida e reservada se viver num ambiente violento, crispado ou stressante. Como acontece com todas as raças, mas especialmente com esta, o treino deve assentar no reforço positivo para que se torne num cão confiante.</p>
+                      
+                   <p> O Épagneul Breton, ou Brittany, adequa-se bastante melhor a famílias activas, uma vez que se não for suficientemente exercitado fica muito inquieto e stressado, ladrando excessivamente. Não se pode nunca esquecer que esta é uma raça orientada para o trabalho, pelo que se passar muito tempo sozinha e sem fazer nada irá desenvolver problemas comportamentais e psicológicos."</i></p> <!--<p>= paragrafo-->
+                
+                <p class="fontform"><i>Transcrição de: https://www.caonosso.pt/guia-de-racas/racas-de-caes-medios/epagneul-breton</i></p>
+
+
+                    <img src = "https://www.caonosso.pt/wp-content/uploads/2021/01/epagneul-5.jpg" alt="Epagneul-Breton de prefil"><!--Entrada de uma Imagem do WWW, (<img= imagem|src= a url da imagem + alt= descrição da imagem qdo a esta não carrega)-->
+    <br>
+    <br>
+                    <!-- Entrada de duas imagens a partir do nosso PC(Exercicio prático | quando criamos uma subpasta com o nome imagens devemos "imagens/nome.png" | informações no Slide 3 Grupo 3)-->
+                    <img src = "epagnol comuma criança.webp" alt="Epagneul abraçado a uma criança" width="950px"height="600px"> <!--(<img src= /imagem/nome.jpg | colocar na pasta ou directoria da imagem + alt= descrição da imagem qdo a esta não carrega)-->
+    <br>
+    <p>
+                    <img src = "zico prainha.jpg" alt="cão num relvado a brincar"><!--(<img src= /imagem/nome.jpg | colocar na pasta ou directoria da imagem + alt= descrição da imagem qdo a esta não carrega)-->
+    <br>
+    <p>
+         </section>   
+   
+            <br>
+    <br><!-- Entrada de uma tabela -->
+          
+         <section>
+            <a name="table"></a>
+
+          <!-- <table border="5px solid green" text-align="center" Style="width: 100%">  -->
+            <table class="table">
+ <!--definição da moldura da tabela em px(pixeis)-->           
+          
+               <th colspan="3" class="th"> <h2 style="background-color: darkgreen; color:white; text-align:center"> Tamanho</h2> </th>
+               <!--Titulo da tabela--> <!--<th>=Entrada de colunas | colspan= define o número de colunas que uma célula da tabela deve abranger.Existe o mesmo comando para as linhas <rowspan> | Heading = cabeçalho da tabela-->
+
+                <tr><!--1 coluna--> <!--<tr>=Inserção de Linhas-->
+                <br>
+                <td class="td"> <b>  Machos</b> </td> <!--td=celula-->
+                <td class="td">  47cm a 52cm </td> 
+                <td class="td">  <img src="epagneul - foto Clube Portugues Epagneul Breton.jpeg" alt="cão na floresta na caça" class="img_tab"> </td>
+                </tr>
+
+                <tr><!--2 linha-->
+
+                <td class="td"> <b> Fêmeas</b></td> 
+                <td class="td"> 46cm a 51cm </td>
+                 <td class="td"><img src="diana deitada2.jpg" alt="cadela a descansar" class="img_tab"></td>
+
+                </tr>
+           
+            </table>
+
+        </section>
+
+        <br>
+        
+        <section> <!--entrada de Video-->
+
+            <!--Slide 4 grupo 3 (Inserção de Video a partir do youtube | Quando o Video está no nosso pc temos de escrever Video e realizar os mesmos passos que as imagens-->
+            
+            <a name="video"></a>
+            <h2 style="background-color: darkgreen; color:white;">Vídeo </h2>
+            <!--style="width: 45%; height:35%" >-->
+            <br>
+            <video width="580" height="400" controls class="center">
+                
+                <source src="MOV050 (2).mp4" type="video/mp4">
+            </video>
+            
+            <!--<iframe width="590" height="315" src="https://www.youtube.com/embed/WN1sJzI1vZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>class="iframe"></iframe> 
+            
+            
+             </iframe> 
+
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+            <br>
+            <br>
+
+        </section>
+  
+        </div><!--<div>=define um grupo de elementos (Divisão)-->   
+
+            <aside class="col-2"> <!--<aside>= colocação de um elemento/secção de um dos lados e que está relacionado com o conteudo-->
+
+                <img src="livro cao como nos.jpeg" alt="capa do livro Cao como nos, do Manuel Alegre">  <!--Titulo do elemento hierarquicamente inferior <h3>-->
+              
+                
+                <h3 style="background-color:darkgreen; color:white;">Leitura Recomendada </h3>
+                 <p></p>
+                 <br>
+                 <p> <h3>Cão Como nós</h3></p>
+                 <br>
+                 <p> Como nós era altivo</p>
+                 <p> fiel mas como nós</p>
+                 <p> desobediente.</p>
+                 <p> Gostavas de estar connosco a sós</p>
+                 <p> mas não cativo</p>
+                 <p> e sempre presente-ausente</p>
+                 <p> como nós.</p>
+                 <p> Cão que não querias</p> 
+                 <p> ser cão</p>
+                 <p> e não lambias</p>
+                 <p> a mão</p>
+                 <p> e não respondias</p>
+                 <p> à voz.</p>
+                 <p> Cão</p>
+                 <p> Como nós.</p>
+                
+                <br>
+            
+                 <P><i> Manuel Alegre</i>  2002</P>
+        
+
+        </aside><!--Fecho do bloco aside-->
+
+    <footer><!-- Rodapé (parte inferior da nossa pagina da web)-->
+                <h2>Trabalho desenvolvido para a Pós Graduação de Design de Produtos Interactivos para a Educação | ESELX | IPL </h2>
+                <p></p>
+                <img src="eselx_logoH_Preto.jpg" alt="ESELX" width="100" height="150"> 
+                    <p style="color:white; font-size:50%;"> Docente da UC Laboratório de Linguagens Digitais | Prof. Rui Jesus</p>
+                    <p style="color:white; font-size:50%;"> </p>
+                    <p style="color:white; font-size:50%;">Realizado por: Madalena Santos  Lima | 2022/2023 </p>
+                    <p style="color:white; font-size:50%;"></p>
+                </footer> 
+
+    <!-- Entrada do Javascript)-->    
+    
+<script type="text/javascript" src="script.js"></script>
+        
+    </body>
+    
+<html>
