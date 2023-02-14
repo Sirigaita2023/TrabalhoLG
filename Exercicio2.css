@@ -346,9 +346,9 @@ iframe { /* configuração do video*/
         #menu_icon {
             display: block;
             cursor: pointer;
-            padding: 0px;
+            padding: -1px;
             position: absolute;
-            left: 10px;
+            left: 15px;
             z-index: 1000;
             background-color: #4d4b4b;
             }
