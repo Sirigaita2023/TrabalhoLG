@@ -83,13 +83,13 @@ body{
 /* fim das alterações -inicio prof.*/
 
 header {
-    padding-top: 20px; /*acrescentado por mim - largura da barra de cabeçalho - w3*/
-    padding-bottom: 20px;
+    padding-top: 16px; /*acrescentado por mim - largura da barra de cabeçalho - w3*/
+    padding-bottom: 8px;
     background-color:darkgreen;
     display:block;
     color:white;
     text-align:center;
-    position:sticky;/* acrescentado por mim Cabeçalho em 1 plano, flexivel e variavel e fixa*/
+    /*position:sticky;/* acrescentado por mim Cabeçalho em 1 plano, flexivel e variavel e fixa*/
     Top:0;
     Width:100%;
     z-index: 9999;
