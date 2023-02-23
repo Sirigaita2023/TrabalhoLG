@@ -25,11 +25,12 @@ body{
         color:darkgreen;
         padding: 8px;
         border-radius:5px;
-        font-size: 16px;
-        text-decoration: color;
-        display: -webkit-flex;
+        display: flex;
         text-align: center;
-        margin: auto;border-bottom: 3px solid transparent;
+        margin: 0 auto;
+        width: 50%;
+        border-bottom: 3px solid transparent;
+        
         
 
     }
@@ -412,7 +413,7 @@ iframe { /* configuração do video*/
             display:none;
         }
             svg {
-              width: 50px;
+              width: 30px;
             }
 
         #menu_icon {
@@ -432,7 +433,7 @@ iframe { /* configuração do video*/
             background-color: #dad5d5;
             height: 43%; /*alterado de 100%*/
             width: 45%; /*alterado de 60%*/
-            margin-left: 0px;
+            margin-left: -100px;
             position: absolute;
             transition: all 0.2s linear;
             transform: translateX(-100%);/*ocultação do menu ham aberto*/
