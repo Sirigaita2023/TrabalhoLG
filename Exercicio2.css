@@ -28,7 +28,7 @@ body{
         display: flex;
         text-align: center;
         margin: 0 auto;
-        width: 50%;
+        width: 20%;
         border-bottom: 3px solid transparent;
         
         
@@ -432,7 +432,7 @@ iframe { /* configuração do video*/
             display: flex;
             background-color: #dad5d5;
             height: 43%; /*alterado de 100%*/
-            width: 45%; /*alterado de 60%*/
+            width: 55%; /*alterado de 60%*/
             margin-left: -100px;
             position: absolute;
             transition: all 0.2s linear;
