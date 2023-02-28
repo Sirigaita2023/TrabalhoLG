@@ -28,7 +28,7 @@ body{
         display: flex;
         text-align: center;
         margin: 0 auto;
-        width: 20;
+        width: auto;
         border-bottom: 3px solid transparent;
         
         
